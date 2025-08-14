@@ -97,6 +97,19 @@ const technologies = [
 
 const experiences = [
   {
+    title: "AI and Data Engineer",
+    company_name: "MaverickIgnite Solutions LLP",
+    icon: Maverick,
+    iconBg: "#383E56",
+    date: "July 2025 - Present",
+    points: [
+      "Designing, developing, and maintaining scalable data pipelines and machine learning models to support AI-driven applications and analytics.",
+      "Collaborating with cross-functional teams including data scientists, software engineers, and product managers to deliver high-quality, data-informed solutions.",
+      "Optimizing performance and scalability of ML models and data processing workflows for production environments.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+  {
     title: "React.js Developer",
     company_name: "MaverickIgnite Solutions LLP",
     icon: Maverick,
@@ -109,19 +122,7 @@ const experiences = [
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
-  {
-    title: "Web Developer",
-    company_name: "MaverickIgnite",
-    icon: Maverick,
-    iconBg: "#383E56",
-    // date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+  
   {
     title: "Data Science Intern",
     company_name: "MaverickIgnite Solutions LLP",
