@@ -29,8 +29,11 @@ import DataSense from "./DataSense.png";
 import SupportSense from "./SupportSense.png";
 import StyleHeaven from "./StyleHeaven.png";
 import Bookifycom from "./Bookiflycom.png";
+import towndrop from "./towndrop.jpg";
+import flutter from "./tech/flutter.png";
 export {
   python,
+  flutter,
   logo,
   backend,
   creator,
@@ -59,5 +62,7 @@ export {
   SupportSense,
   SQL,
   StyleHeaven,
+  towndrop,
   Bookifycom,
+
 };

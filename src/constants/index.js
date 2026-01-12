@@ -6,6 +6,7 @@ import {
   javascript,
   html,
   css,
+  flutter,
   reactjs,
   nodejs,
   git,
@@ -19,6 +20,7 @@ import {
   SupportSense,
   StyleHeaven,
   SQL,
+  towndrop,
   Bookifycom,
 } from "../assets";
 
@@ -43,7 +45,7 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "React Native/Flutter Developer",
     icon: mobile,
   },
   {
@@ -68,6 +70,10 @@ const technologies = [
   {
     name: "JavaScript",
     icon: javascript,
+  },
+  {
+    name: "Flutter",
+    icon: flutter,
   },
   {
     name: "React JS",
@@ -101,7 +107,7 @@ const experiences = [
     company_name: "MaverickIgnite Solutions LLP",
     icon: Maverick,
     iconBg: "#383E56",
-    date: "July 2025 - Present",
+    date: "April 2025 - Present",
     points: [
       "Designing, developing, and maintaining scalable data pipelines and machine learning models to support AI-driven applications and analytics.",
       "Collaborating with cross-functional teams including data scientists, software engineers, and product managers to deliver high-quality, data-informed solutions.",
@@ -110,7 +116,7 @@ const experiences = [
     ],
   },
   {
-    title: "React.js Developer",
+    title: "ReactJs Developer",
     company_name: "MaverickIgnite Solutions LLP",
     icon: Maverick,
     iconBg: "#383E56",
@@ -350,6 +356,38 @@ const projects = [
   image: StyleHeaven, // Replace with your actual image variable or import
   source_code_link: "https://github.com/", // Add actual repo link
 },
+
+{
+  name: "TownDrop an Online Delivery App",
+  description:
+    "TownDrop is an online delivery app developed by me. It provides a seamless delivery experience with features like real-time order tracking, user authentication, shopping cart, and order management. The frontend is built with React Native for a fast and interactive UI, while the backend utilizes Python FastAPI for business logic and MySQL for robust data storage and retrieval.",
+  tags: [
+    {
+      name: "React Native",
+      color: "blue-text-gradient",
+    },
+    {
+      name: "Python",
+      color: "yellow-text-gradient",
+    },
+    {
+      name: "MySql",
+      color: "orange-text-gradient",
+    },
+    {
+      name: "Mobile App",
+      color: "green-text-gradient",
+    },
+    {
+      name: "Android Application",
+      color: "purple-text-gradient",
+    },
+  ],
+  image: towndrop, // Replace with your actual image variable or import
+  source_code_link: "https://github.com/mudassirms/Online_delivery.git", // Add actual repo link
+},
+
 ];
+
 
 export { services, technologies, experiences, testimonials, projects };
